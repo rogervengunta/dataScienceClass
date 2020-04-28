@@ -1,5 +1,13 @@
 
 def funcRecursive(numArg): #FINDING THE FACTORIAL (BELOW fact() FUNC)
+    """[summary]
+
+    Arguments:
+        numArg {[type]} -- [description]
+
+    Returns:
+        [type] -- [description]
+    """
     print("1st line of fund def")
     if(numArg > 0): #base case
         result = numArg + funcRecursive(numArg-1) #recursive case
