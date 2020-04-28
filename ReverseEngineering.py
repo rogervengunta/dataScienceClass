@@ -11,7 +11,7 @@ def funcRecursive(numArg): #FINDING THE FACTORIAL (BELOW fact() FUNC)
     print("1st line of fund def")
     if(numArg > 0): #base case
         result = numArg + funcRecursive(numArg-1) #recursive case
-        print("if block result:", result)
+        print("if block result:", result) #CALL STACK?? WHICH PART GOES INTO CALL STACK?
     else:
         result = 0
         print("else block result:", result)
